@@ -7,7 +7,7 @@ function Header() {
         <div className='header'>
             <ul>
                 <li>
-                    <a href="index.html">Bevezető</a>
+                    <a style={{color: '#ffb400'}} href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="index.html">Tapasztalat</a>

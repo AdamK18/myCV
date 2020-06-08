@@ -1,14 +1,18 @@
 .header{
     background-color: #474744;
-    border-radius: 20px 20px 0px 0px;
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    border-bottom: 0.5vh solid #2994b2;
 }
 ul{
     margin: 0;
+    padding: 0;
 }
 li{
     display: inline-block;
-    margin: 15px;
-    font-size: 20px;
+    margin: 2vh;
+    font-size: 4vh;
 }
 a{
     color: #fffbe0;
