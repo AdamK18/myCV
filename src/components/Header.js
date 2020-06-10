@@ -7,19 +7,19 @@ function Header() {
         <div className='header'>
             <ul>
                 <li>
-                    <a style={{color: '#ffb400'}} href="index.html">Home</a>
+                    <a style={{color: '#ffffff'}} href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="index.html">Tapasztalat</a>
+                    <a style={{color: '#c1a57b'}} href="index.html">Tapasztalat</a>
                 </li>
                 <li>
-                    <a href="index.html">Képességek</a>
+                    <a style={{color: '#c1a57b'}} href="index.html">Képességek</a>
                 </li>
                 <li>
-                    <a href="index.html">Hobbik</a>
+                    <a style={{color: '#c1a57b'}} href="index.html">Hobbik</a>
                 </li>
                 <li>
-                    <a href="index.html">Elérhetőségek</a>
+                    <a style={{color: '#c1a57b'}} href="index.html">Elérhetőségek</a>
                 </li>
             </ul>
         </div>

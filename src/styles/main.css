@@ -1,5 +1,6 @@
 .main{
     width: 100%;
-    height: 91vh;
-    background-color: #f4f7f7;
+    height: 89vh;
+    background-color: #ececec;
+    min-height: 600px;
 }
