@@ -1,65 +1,65 @@
 import React, { Component } from "react";
 import roundpic from "../images/CV-pic-round.png";
+import { connect } from "react-redux";
 import "../styles/home.css";
 
-class Home extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      name: "Klöczl Ádám",
-      email: "kloczl.adam@gmail.com",
-      phone: "+36 30 199 9605",
-      uni: "Budapesti Corvinus Egyetem",
-      szak: "Gazdaságinformatika",
-      company: "Jacsomedia Smart Web Applications",
-    };
-  }
-
-  render() {
-    const { name, email, phone, uni, szak, company } = this.state;
-    return (
-      <div>
-        <h1 className="h1">{name}</h1>
-        <hr className="separation" />
-        <table>
-          <tr>
-            <td className="col1">
-              <h2>Foglalkozás</h2>
+function Home(props) {
+  const {name, isStudent, university, company, position, email, phone, summary} = props
+  return (
+    <div>
+      <h1 className="h1">{name}</h1>
+      <hr className="separation" />
+      <table>
+        <tbody><tr>
+        <td className="col1">
+          <h2>Foglalkozás</h2>
+          {isStudent ?
+            <React.Fragment>
               <p>
                 <b>Tanuló</b>
               </p>
               <p>
-                {uni}
+                {university}
               </p>
-              <p>
-                <b>Content manager</b>
-              </p>
-              <p>
-                {company}
-              </p>
-              <h2>Elérhetőség</h2>
-              <p>
-                <b>E-mail cím:</b> {email}
-              </p>
-              <p>
-                <b>Telefonszám:</b> {phone}
-              </p>
-            </td>
-            <td className="col2">
-              <img className="roundpic" src={roundpic} alt="" />
-            </td>
-            <td className="col3">
-              <h2>Rólam</h2>
-              <p className="rolam">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint, magni laboriosam nobis error autem dolor laudantium tenetur, id odit odio ducimus animi, voluptas excepturi ad. Cupiditate veniam animi, expedita doloremque quidem eius alias debitis libero odit maiores aliquid hic dolorum, molestias necessitatibus labore delectus atque tempore, reiciendis eveniet ex.
-              </p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    );
-  }
+            </React.Fragment> : ''}
+          <p>
+            <b>{position}</b>
+          </p>
+          <p>{company}</p>
+          <h2>Elérhetőség</h2>
+          <p>
+            <b>E-mail cím:</b> {email}
+          </p>
+          <p>
+            <b>Telefonszám:</b> {phone}
+          </p>
+        </td>
+        <td className="col2">
+          <img className="roundpic" src={roundpic} alt="" />
+        </td>
+        <td className="col3">
+          <h2>Rólam</h2>
+          <p className="rolam">
+            {summary}
+          </p>
+        </td>
+      </tr></tbody>
+      </table>
+    </div>
+  );
 }
 
-export default Home;
+const mapStateToProps = (state) => {
+  return {
+    name: state.user.name,
+    isStudent: state.user.isStudent,
+    university: state.user.university,
+    company: state.user.company,
+    position: state.user.position,
+    email: state.user.email,
+    phone: state.user.phone,
+    summary: state.user.summary,
+  };
+};
+
+export default connect(mapStateToProps)(Home);
