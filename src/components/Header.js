@@ -4,8 +4,8 @@ import '../styles/header.css'
 
 function Header() {
     return (
-        <div className='header'>
-            <ul>
+        <React.Fragment>
+            <ul className="header">
                 <li>
                     <a style={{color: '#ffffff'}} href="index.html">Home</a>
                 </li>
@@ -18,11 +18,8 @@ function Header() {
                 <li>
                     <a style={{color: '#c1a57b'}} href="index.html">Hobbik</a>
                 </li>
-                <li>
-                    <a style={{color: '#c1a57b'}} href="index.html">Elérhetőségek</a>
-                </li>
             </ul>
-        </div>
+        </React.Fragment>
     )
 }
 

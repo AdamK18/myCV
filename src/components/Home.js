@@ -1,27 +1,35 @@
 import React, { Component } from "react";
 import roundpic from "../images/CV-pic-round.png";
 import { connect } from "react-redux";
-import "../styles/home.css";
+import "../styles/home/home.css";
+import "../styles/home/flex.css";
 
 function Home(props) {
-  const {name, isStudent, university, company, position, email, phone, summary} = props
+  const {
+    name,
+    isStudent,
+    university,
+    company,
+    position,
+    email,
+    phone,
+    summary,
+  } = props;
   return (
-    <div>
-      <h1 className="h1">{name}</h1>
+    <React.Fragment>
+      <h1>{name}</h1>
       <hr className="separation" />
-      <table>
-        <tbody><tr>
-        <td className="col1">
+      <div className="row">
+        <div className="col">
           <h2>Foglalkozás</h2>
-          {isStudent ?
+          {isStudent ? (
             <React.Fragment>
               <p>
                 <b>Tanuló</b>
               </p>
-              <p>
-                {university}
-              </p>
-            </React.Fragment> : ''}
+              <p>{university}</p>
+            </React.Fragment>
+          ) : ("")}
           <p>
             <b>{position}</b>
           </p>
@@ -33,19 +41,14 @@ function Home(props) {
           <p>
             <b>Telefonszám:</b> {phone}
           </p>
-        </td>
-        <td className="col2">
-          <img className="roundpic" src={roundpic} alt="" />
-        </td>
-        <td className="col3">
+        </div>
+        <img className="roundpic" src={roundpic} alt="" />
+        <div  className="col about">
           <h2>Rólam</h2>
-          <p className="rolam">
-            {summary}
-          </p>
-        </td>
-      </tr></tbody>
-      </table>
-    </div>
+          <p className="rolam">{summary}</p>
+        </div>
+      </div>
+    </React.Fragment>
   );
 }
 
