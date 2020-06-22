@@ -5,14 +5,16 @@ import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
+import Projects from './components/Projects'
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
+      <div id="home" className="App">
         <Header></Header>
         <Home></Home>
-        {/*<Experience></Experience>*/}
+        <Experience></Experience>
+        <Projects></Projects>
       </div>
     </Provider>
   );

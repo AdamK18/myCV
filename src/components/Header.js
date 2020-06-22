@@ -7,13 +7,13 @@ function Header() {
         <React.Fragment>
             <ul className="header">
                 <li>
-                    <a style={{color: '#ffffff'}} href="index.html">Home</a>
+                    <a href="#home" style={{color: '#ffffff'}}>Home</a>
                 </li>
                 <li>
-                    <a style={{color: '#c1a57b'}} href="index.html">Tapasztalat</a>
+                    <a href="#experience" style={{color: '#c1a57b'}}>Tapasztalat</a>
                 </li>
                 <li>
-                    <a style={{color: '#c1a57b'}} href="index.html">Képességek</a>
+                    <a href="#projects" style={{color: '#c1a57b'}}>Projektek</a>
                 </li>
                 <li>
                     <a style={{color: '#c1a57b'}} href="index.html">Hobbik</a>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import roundpic from "../images/CV-pic-round.png";
 import { connect } from "react-redux";
 import "../styles/home/home.css";
