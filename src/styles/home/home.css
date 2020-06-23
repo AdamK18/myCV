@@ -1,51 +1,77 @@
-h1{
-    font-size: 4vw;
-    margin: 0;
-    padding-top: 6vh;
+h1 {
+  font-size: 4vw;
+  margin: 0;
+  padding-top: 5vh;
 }
-h2{
-    font-size: 2.5vw;
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+h2 {
+  font-size: 2.5vw;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
 }
-p{
-    font-size: 1.5vw;
-    margin: 1vh;
+p {
+  font-size: 1.5vw;
+  margin: 1vh;
 }
-b{
-    color: #c1a57b;
+b {
+  color: #c1a57b;
 }
-.roundpic{
-    width: 30vw;
-    border-radius: 50%;
-    border: 1vh solid #474744;
+.roundpic {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  border: 1vh solid #474744;
 }
-.separation{
-    width: 50vw;
-    border: 0.15vw solid #474744;
-    background-color: #474744;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+.separation {
+  width: 50vw;
+  border: 0.15vw solid #474744;
+  background-color: #474744;
+  margin-top: 3vh;
+  margin-bottom: 4vw;
+}
+.social {
+  padding-top: 2vh;
+  width: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.sep-first{
+  margin-bottom: 5vh;
+}
+.img-link{
+  margin-top: 2vh;
+}
+.col{
+  padding-bottom: 5vh;
+}
+.rolam{
+  font-size: 1.25vw;
 }
 
-@media screen and (max-width: 600px) {
-    h1{
-        font-size: 13vw;
-    }
-    h2{
-        font-size: 9vw;
-    }
-    p {
-      font-size: 6vw;
-      margin: 0.5vh;
-    }
-    .roundpic{
-        width: 80vw;
-        margin-top: 4vh;
-        margin-bottom: 4vh;
-    }
-    .separation{
-        width: 80vw;
-        border-width: 0.4vw;
-    }
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 13vw;
   }
+  h2 {
+    font-size: 9vw;
+  }
+  p {
+    font-size: 6vw;
+    margin: 0.5vh;
+  }
+  .roundpic {
+    height: 80vw;
+    width: 80vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+  .separation {
+    width: 80vw;
+    border-width: 0.4vw;
+  }
+  .col{
+    padding-bottom: 0vh;
+  }
+  .rolam{
+    font-size: 5vw;
+  }
+}

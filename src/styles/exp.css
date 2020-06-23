@@ -1,96 +1,124 @@
-.exp-h2{
+.exp-h2 {
+  margin-top: 8vh;
+  font-size: 4vw;
+}
+
+.sep-exp {
+  width: 30vw;
+}
+
+.sep-project {
+  margin-bottom: 4vw;
+}
+
+.section {
+  width: fit-content;
+  margin: 3vw 10vw;
+  font-size: 3vw;
+  color: #c1a57b;
+}
+
+.flex {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: start;
+}
+.flex-start {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+.hol {
+  display: inline-block;
+  margin: 0;
+  width: 30vw;
+  font-size: 2.2vw;
+}
+.mikor {
+  margin: 0;
+  width: 30vw;
+  font-size: 1.4vw;
+  color: #474744;
+}
+.mit {
+  margin: 0;
+  width: 40vw;
+  font-size: 2.2vw;
+}
+.text {
+  margin: 0;
+  width: 40vw;
+  font-size: 1.4vw;
+}
+.social {
+  width: 2.5vw;
+  padding: 0;
+  padding-right: 1vw;
+}
+.projectContainer {
+  display: flex;
+  align-items: flex-start;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .exp-h2 {
     margin-top: 8vh;
-    font-size: 3vw;
-}
-
-.sep-exp{
-    width: 30vw;
-}
-
-.sep-project{
-    margin-bottom: 4vw;
-}
-
-.section{
-    width: fit-content;
-    margin: 4vw 10vw;
-    font-size: 2.5vw;
-    color: #c1a57b;
-}
-
-.flex{
-    margin: auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: start;
-}
-.flex-start{
-    margin-top: 5vh;
-    margin-bottom: 1vh;
-}
-.hol{
-    margin: 0;
-    width: 30vw;
-    font-size: 2vw;
-}
-.mikor{
-    margin: 0;
-    width: 30vw;
-    font-size: 1.3vw;
-    color: #474744;
-}
-.mit{
-    margin: 0;
-    width: 40vw;
-    font-size: 1.6vw;
-}
-.text{
-    margin: 0;
-    width: 40vw;
-    font-size: 1.4vw;
-}
-
-@media screen and (max-width: 600px) {
-    .exp-h2{
-        margin-top: 8vh;
-        font-size: 10vw;
-    }
-    
-    .sep-exp{   
-        width: 60vw;
-    }
-    .section{
-        margin: 10vw auto;
-        font-size: 8vw;
-    }
-    .flex{
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 90%;
-    }
-    .hol{
-        margin-bottom: 2vh;
-        width: 100%;
-        font-size: 7vw;
-    }
-    .mit{
-        margin: 0;
-        margin-bottom: 1vh;
-        width: 100%;
-        font-size: 6vw;
-    }
-    .mikor{
-        margin-bottom: 3vh;
-        width: 100%;
-        font-size: 5vw;
-    }
-    .text{
-        margin: 0;
-        width: 100%;
-        font-size: 5.5vw;
-    }
+    font-size: 10vw;
   }
+
+  .sep-exp {
+    width: 60vw;
+  }
+  .section {
+    margin: 6vh auto;
+    font-size: 9vw;
+    margin-bottom: 3vh;
+  }
+  .flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin-top: 2vh;
+  }
+  .hol {
+    margin-top: 0vh;
+    margin-bottom: 3vh;
+    width: 100%;
+    font-size: 7vw;
+  }
+  .mit {
+    margin: 0;
+    margin-bottom: 1vh;
+    width: 100%;
+    font-size: 6vw;
+  }
+  .mikor {
+    margin-bottom: 3vh;
+    width: 100%;
+    font-size: 5vw;
+  }
+  .text {
+    margin: 0;
+    width: 100%;
+    font-size: 5vw;
+    margin-bottom: 3vh;
+  }
+  .social {
+    width: 8vw;
+  }
+  .projectContainer {
+    display: flex;
+    align-items: flex-start;
+  }
+  .sep-project{
+    margin-bottom: 6vh;
+  }
+}
