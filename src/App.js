@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Abilities from "./components/Abilities";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Home></Home>
         <Experience></Experience>
         <Projects></Projects>
+        <Abilities></Abilities>
       </div>
     </Provider>
   );

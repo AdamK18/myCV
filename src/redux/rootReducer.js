@@ -1,14 +1,16 @@
 import { combineReducers } from 'redux'
 import { userReducer } from './user/userReducer'
-import { schoolExperienceReducer } from './experience/experienceReducer'
-import { workExperienceReducer } from './experience/experienceReducer'
-import { getProjectsReducer } from './experience/experienceReducer'
+import { schoolExperienceReducer, workExperienceReducer, getProjectsReducer } from './experience/experienceReducer'
+import { getBasicAbsReducer, getMediumAbsReducer, getAdvancedAbsReducer } from './abilities/abilitiesReducer'
 
 const rootReducer = combineReducers({
     user: userReducer,
     school: schoolExperienceReducer,
     work: workExperienceReducer,
-    project: getProjectsReducer
+    project: getProjectsReducer,
+    absBasic: getBasicAbsReducer,
+    absMedium: getMediumAbsReducer,
+    absAdvanced: getAdvancedAbsReducer,
 })
 
 export default rootReducer

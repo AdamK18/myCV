@@ -1,6 +1,7 @@
 import GET_EXP_LIST from './experienceTypes'
 import GET_WORK_EXP from './experienceTypes'
 import GET_PROJECTS from './experienceTypes'
+import GET_ABILITIES from './experienceTypes'
 
 export const getExpList = () => {
     return {

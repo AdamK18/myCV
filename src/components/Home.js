@@ -3,8 +3,8 @@ import roundpic from "../images/CV-pic-round.png";
 import linkedInPic from "../images/linkedin-logo.png";
 import githubPic from "../images/github.svg";
 import { connect } from "react-redux";
-import "../styles/home/home.css";
-import "../styles/home/flex.css";
+import "../styles/home.css";
+import "../styles/flex.css";
 
 function Home(props) {
   const {

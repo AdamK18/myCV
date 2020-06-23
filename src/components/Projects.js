@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import "../styles/exp.css";
 import bitBucketPic from "../images/bitbucket.png";
+import githubPic from "../images/github.svg";
 
 const Projects = (props) => {
   const { projectData } = props;
@@ -18,7 +19,7 @@ const Projects = (props) => {
             <div className="flex flex-start">
               <a rel="noopener noreferrer" target="_blank" href={e.link}>
                 <div className="projectContainer">
-                  <img className="social" src={bitBucketPic} alt="bitBucket" />{" "}
+                  <img className="social" src={e.isGutHub ? githubPic : bitBucketPic} alt="projectIcon" />{" "}
                   <h4 className="hol">{e.nev}</h4>
                 </div>
               </a>

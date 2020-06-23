@@ -1,0 +1,30 @@
+.flex-ab{
+    display: flex;
+    justify-content: center;
+}
+.section-ab{
+    margin: 0 1vw;
+}
+.section-ab-main{
+    color: black;
+    margin: 5vh 10vw;
+}
+.col1, .col2, .col3{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+@media screen and (max-width: 700px) {
+    .flex-ab{
+        flex-direction: column-reverse;
+    }
+    .section-ab{
+        margin: auto;
+    }
+    .section-ab-main{
+        margin: 5vh auto;
+    }
+    .col1, .col2, .col3{
+        justify-content: center;
+    }
+}
