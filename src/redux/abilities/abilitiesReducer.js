@@ -15,7 +15,7 @@ const mediumState = {
 
 const advancedState = {
     pLanguages: ['HTML', 'Javascript', 'GIT', '-'],
-    languages:['angol (C1)'],
+    languages:['angol (C1 nyelvvizsga)'],
     IDEs: ['VS Code', '-', '-']
 }
 

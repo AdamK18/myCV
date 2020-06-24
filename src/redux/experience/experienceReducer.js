@@ -23,7 +23,7 @@ const workState = {
             hol: 'Jacsomedia Smart Web Applications',
             mikor: '2019 - ',
             mit: 'Content manager',
-            text: 'Októberben kezdtem munkálataim a Jacsomedia-nál, ahol megalapoztam mostani webfejlesztési tudásomat. Megismerkedtem a cégen belüli feladatmegosztással, a kanban rendszerrel és egy komoly munkahely felelősségtudatával. Feladataim közé tartozott a webes kontentek módosítása, frissítése, készítése és felöltése Teamsite, Drupal vagy Wordpress használatával. Emellett kezeltem adatbázisokat és részt vettem fejlesztési/tesztelési folyamatokban amiknek köszönhetően megtanultam Git és SQL kódot írni. A HTML-CSS-JS triot szabadidőmben sajátítottam el, amit aktívan használtam is az elmúlt hónapokban különböző oldalak módosításában és HTML levelek készítésében pl.: Veeva approved email.'
+            text: 'Októberben kezdtem munkálataim a Jacsomedia-nál, ahol megalapoztam mostani webfejlesztési tudásomat. Megismerkedtem a cégen belüli feladatmegosztással, a kanban rendszerrel és egy komoly munkahely felelősségtudatával. Feladataim közé tartozott a webes kontentek módosítása, frissítése, készítése és felöltése Teamsite, Drupal vagy Wordpress használatával. Emellett kezeltem adatbázisokat és részt vettem fejlesztési/tesztelési folyamatokban, amiknek köszönhetően megtanultam Git és SQL kódot írni. A HTML-CSS-JS triot szabadidőmben sajátítottam el, amit aktívan használtam is az elmúlt hónapokban különböző oldalak módosításában és HTML levelek készítésében pl.: Veeva approved email.'
         },
         {
             hol: 'Korrepetálás: Programozás C#',
@@ -81,21 +81,21 @@ const projectState = {
         {
             nev: 'QueTalker-android',
             nyelv: 'Kotlin - Java',
-            text: 'Közös családi projekt. Egy egyszerű (félkész) chat applikáció. Felhasználói kezelőfelület mellyel a regisztráció és belépés egyaránt lehetséges feltéve hogy az alábbi szerver fut. Android Studio-ban készült.',
+            text: 'Közös családi projekt. Egy egyszerű (félkész) chat applikáció. Felhasználói kezelőfelület mellyel a regisztráció és belépés egyaránt lehetséges feltéve, hogy az alábbi szerver fut. Android Studio-ban készült.',
             link: 'https://bitbucket.org/andraskloczl/quetalker-android/src/develop/',
             isGutHub: false
         },
         {
             nev: 'QueTalker-backend',
             nyelv: 'Java',
-            text: 'Spring backend amely felelős a regisztrációs folyamatok elvégzéséért. A felhasználói adatokat tárolja és token rendszerrel léptet be. Intellij-ben készült',
+            text: 'Spring backend amely felelős a regisztrációs folyamatok elvégzéséért. A felhasználói adatokat tárolja és token rendszerrel léptet be. IntellIj-ben készült.',
             link: 'https://bitbucket.org/andraskloczl/quetalker-backend/src',
             isGutHub: false
         },
         {
             nev: 'Fluimucil game',
             nyelv: 'C#',
-            text: 'Ebben a játékban a Fluimucil "De miért?" Ábellel kell kikerülni a veszélyeket és minél tovább túlélni. Életem első projektje melyet közzé is tettem Google Play-en. Unity-ben készült.',
+            text: 'Ebben a játékban Fluimucil "De miért?" Ábellel kell kikerülni a veszélyeket és minél tovább túlélni. Életem első projektje melyet közzé is tettem Google Play-en. Unity-ben készült.',
             link: 'https://bitbucket.org/adamkloczl/fluimucil/src/master/',
             isGutHub: false
         }

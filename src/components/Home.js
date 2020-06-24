@@ -49,10 +49,10 @@ function Home(props) {
           </p>
           <div>
             <a rel="noopener noreferrer" target="_blank" href={github}>
-              <img className="social" src={githubPic} alt="gitHub" />{" "}
+              <img className="social" src={githubPic} alt="gitHub" />
             </a>
             <a rel="noopener noreferrer" target="_blank" href={linkedIn}>
-              <img className="social" src={linkedInPic} alt="linkedIn" />{" "}
+              <img className="social" src={linkedInPic} alt="linkedIn" />
             </a>
           </div>
         </div>

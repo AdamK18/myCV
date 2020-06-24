@@ -11,7 +11,7 @@ const initalState = {
     linkedIn: "https://www.linkedin.com/in/adam-kloczl-10b189165/",
     github: "https://github.com/AdamK18",
     summary:
-        "Az informatika iránt már kisgyerek korom óta érdeklődök, ami valószínűleg a pc játékokhoz köthető igazán. Azonban a programozás világába csak a középiskola megkezdésekor cseppentem bele. Tanulmányaimon kívül, szabadidőmben is szívesen foglalkozok ezen ismereteim bővítésével. Ezen kívül szívesen töltöm időmet sportolással például longboardozással, fotózással és főzéssel. Magamat egy rugalmas, könnyedén alkalmazkodó, csapatjtékos egyénnek tartom, aki kedveli a kihívásokat és nyitott a folyamatos fejlődésre, tanulásra.",
+        "Az informatika iránt már kisgyerek korom óta érdeklődök, ami valószínűleg a pc játékokhoz köthető igazán. Azonban a programozás világába csak a középiskola megkezdésekor cseppentem bele. Tanulmányaimon kívül, szabadidőmben is szívesen foglalkozok ezen ismereteim bővítésével. Ezen kívül szívesen töltöm időmet sportolással például longboardozással, fotózással és főzéssel. Magamat egy rugalmas, könnyedén alkalmazkodó, csapatjátékos egyénnek tartom, aki kedveli a kihívásokat és nyitott a folyamatos fejlődésre, tanulásra.",
 };
 
 export const userReducer = (state = initalState, action) => {
