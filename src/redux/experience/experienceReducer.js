@@ -47,7 +47,7 @@ const projectState = {
             nev: 'LearnIT',
             nyelv: 'C# - SQL - LINQ',
             text: 'Szoftvertechnológia II. órámra beadandóként készítettem ezt az SQL adatbázis alapú C# alkalmazást. Az adatbázis megtervezése után részenként integráltam bele a funkciókat LINQ és C# nyelvek segítségével.',
-            link: 'https://github.com/AdamK18/myCV',
+            link: 'https://github.com/AdamK18/LearnIT',
             isGutHub: true
         },
         {
