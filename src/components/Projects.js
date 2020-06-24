@@ -8,18 +8,18 @@ const Projects = (props) => {
   const { projectData } = props;
 
   return (
-    <React.Fragment>
+    <div className="projects">
       <h2 className="exp-h2" id="projects">
         Projektek
       </h2>
-      <hr className="separation sep-exp sep-project" />
+      <hr className="sep-exp sep-project" />
       <div className="content">
         {projectData.map((e, i) => (
           <React.Fragment key={i}>
             <div className="flex flex-start">
               <a rel="noopener noreferrer" target="_blank" href={e.link}>
                 <div className="projectContainer">
-                  <img className="social" src={e.isGutHub ? githubPic : bitBucketPic} alt="projectIcon" />{" "}
+                  <img className="projectLink" src={e.isGutHub ? githubPic : bitBucketPic} alt="projectIcon" />{" "}
                   <h4 className="hol">{e.nev}</h4>
                 </div>
               </a>
@@ -32,7 +32,7 @@ const Projects = (props) => {
           </React.Fragment>
         ))}
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

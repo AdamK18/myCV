@@ -2,24 +2,21 @@ import {GET_BASIC_ABS, GET_MEDIUM_ABS, GET_ADVANCED_ABS } from './abilitiesType'
 
 
 const basicState = {
-    pLanguages: ['Kotlin', 'VBA', 'Node.js'
-    ],
+    pLanguages: ['Kotlin', 'VBA', 'Node.js', 'SQL'],
     languages: ['Német'],
-    IDEs: ['Android studio', 'IntellIj']
+    IDEs: ['Android studio', 'IntellIj', 'Unity']
 }
 
 const mediumState = {
-    pLanguages: ['CSS', 'C#', 'Java', 'SQL'
-    ],
+    pLanguages: ['CSS', 'C#', 'Java', '-'],
     languages: ['-'],
-    IDEs: ['PhpStorm', 'Visual studio']
+    IDEs: ['PhpStorm', 'Visual studio', 'MySql']
 }
 
 const advancedState = {
-    pLanguages: ['HTML', 'Javascript'
-    ],
+    pLanguages: ['HTML', 'Javascript', 'GIT', '-'],
     languages:['angol (C1)'],
-    IDEs: ['VS Code']
+    IDEs: ['VS Code', '-', '-']
 }
 
 

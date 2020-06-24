@@ -6,11 +6,11 @@ const Experience = (props) => {
   const { schoolData, workData } = props;
 
   return (
-    <React.Fragment>
+    <div className="experience">
       <h2 id="experience" className="exp-h2">
         Tapasztalat
       </h2>
-      <hr className="separation sep-exp" />
+      <hr className="sep-exp" />
       <div className="content">
         <h3 className="section">Szakmai tapasztalat</h3>
         {workData.map((e, i) => (
@@ -39,7 +39,7 @@ const Experience = (props) => {
           </React.Fragment>
         ))}
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

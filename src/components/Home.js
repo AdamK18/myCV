@@ -20,12 +20,12 @@ function Home(props) {
     summary,
   } = props;
   return (
-    <React.Fragment>
+    <div className="home">
       <h1>{name}</h1>
-      <hr className="separation sep-first" />
+      <hr className="separation" />
       <div className="row">
         <div className="col">
-          <h2>Foglalkozás</h2>
+          <h2 className="h2-mob">Foglalkozás</h2>
           {isStudent ? (
             <React.Fragment>
               <p>
@@ -47,22 +47,22 @@ function Home(props) {
           <p>
             <b>Telefonszám:</b> {phone}
           </p>
-        </div>
-        <img className="roundpic" src={roundpic} alt="" />
-        <div className="col about">
-          <h2>Rólam</h2>
-          <p className="rolam">{summary}</p>
           <div>
             <a rel="noopener noreferrer" target="_blank" href={github}>
-              <img className="social img-link" src={githubPic} alt="gitHub" />{" "}
+              <img className="social" src={githubPic} alt="gitHub" />{" "}
             </a>
             <a rel="noopener noreferrer" target="_blank" href={linkedIn}>
-              <img className="social img-link" src={linkedInPic} alt="linkedIn" />{" "}
+              <img className="social" src={linkedInPic} alt="linkedIn" />{" "}
             </a>
           </div>
         </div>
+        <img className="roundpic" src={roundpic} alt="" />
+        <div className="col">
+          <h2>Rólam</h2>
+          <p className="rolam">{summary}</p>
+        </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 

@@ -1,30 +1,59 @@
+.abilities{
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  background-color: white;
+}
+
 .flex-ab{
     display: flex;
     justify-content: center;
 }
 .section-ab{
-    margin: 0 1vw;
-}
-.section-ab-main{
+    width: fit-content;
+    margin: 0;
     color: black;
     margin: 5vh 10vw;
+    font-size: 2vw;
+}
+.ab-table{
+    width: 100%;
+    color: #c1a57b;
+    font-size: 2vw;
+    border-bottom: 0.2vh solid #474744;
+    padding-bottom: 2vh;
+    margin-bottom: 0;
 }
 .col1, .col2, .col3{
-    padding-left: 5vw;
-    padding-right: 5vw;
+    width: 20vw;
+}
+.cell{
+    padding: 2vh;
+    margin: 0;
+    border-bottom: 0.1vh solid #222831;
+    font-size: 1.3vw;
 }
 
 @media screen and (max-width: 700px) {
-    .flex-ab{
-        flex-direction: column-reverse;
-    }
     .section-ab{
         margin: auto;
+        font-size: 5vw;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+    }
+    .ab-table{
+        font-size: 4vw;
     }
     .section-ab-main{
         margin: 5vh auto;
     }
-    .col1, .col2, .col3{
+    .flex-ab{
         justify-content: center;
+    }
+    .col1, .col2, .col3{
+        padding: 0;
+        width: 33.33vw;
+    }
+    .cell{
+        font-size: 3vw;
     }
 }

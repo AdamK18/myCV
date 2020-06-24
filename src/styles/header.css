@@ -3,15 +3,17 @@
   position: sticky;
   top: 0;
   width: 100%;
-  display: inline-block;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
 }
 li {
   display: inline-block;
-  margin: 1vw;
-  font-size: 2.5vw;
-  margin-right: 4vw;
+  margin: 0vw 5vw;
+  font-size: 2vw;
 }
 a {
   color: #fffbe0;

@@ -21,7 +21,7 @@ function Header() {
           </a>
         </li>
         <li>
-          <a style={{ color: "#c1a57b" }} href="index.html">
+          <a style={{ color: "#c1a57b" }} href="#abilities">
             Ismeretek
           </a>
         </li>

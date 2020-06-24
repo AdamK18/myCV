@@ -1,77 +1,81 @@
-h1 {
-  font-size: 4vw;
-  margin: 0;
+.home{
   padding-top: 5vh;
+  padding-bottom: 6vh;
+}
+h1 {
+  font-size: 3.5vw;
+  margin: 0;
 }
 h2 {
-  font-size: 2.5vw;
+  font-size: 2vw;
   margin-bottom: 2vh;
   margin-top: 2vh;
 }
 p {
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   margin: 1vh;
 }
 b {
   color: #c1a57b;
 }
 .roundpic {
-  height: 30vw;
-  width: 30vw;
+  height: 22vw;
+  width: 22vw;
   border-radius: 50%;
-  border: 1vh solid #474744;
+  border: 0.5vh solid #474744;
+  margin-top: 3vh;
 }
 .separation {
   width: 50vw;
-  border: 0.15vw solid #474744;
+  height: 0.2vh;
   background-color: #474744;
   margin-top: 3vh;
-  margin-bottom: 4vw;
+  margin-bottom: 5vh;
 }
 .social {
-  padding-top: 2vh;
+  margin-top: 2vh;
   width: 3vw;
   padding-left: 1vw;
   padding-right: 1vw;
 }
-.sep-first{
-  margin-bottom: 5vh;
-}
-.img-link{
-  margin-top: 2vh;
-}
-.col{
-  padding-bottom: 5vh;
-}
 .rolam{
   font-size: 1.25vw;
+  padding: 0 4vw;
 }
 
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: 13vw;
+    font-size: 10vw;
   }
   h2 {
-    font-size: 9vw;
+    font-size: 7vw;
   }
   p {
-    font-size: 6vw;
+    font-size: 4vw;
     margin: 0.5vh;
   }
   .roundpic {
-    height: 80vw;
-    width: 80vw;
+    height: 60vw;
+    width: 60vw;
     margin-top: 4vh;
     margin-bottom: 4vh;
   }
   .separation {
     width: 80vw;
-    border-width: 0.4vw;
+    height: 0.1vh;
   }
   .col{
     padding-bottom: 0vh;
   }
   .rolam{
-    font-size: 5vw;
+    font-size: 4vw;
+  }
+  .social {
+    width: 8vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .h2-mob{
+    margin-top: 0;
   }
 }

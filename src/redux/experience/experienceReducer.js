@@ -6,13 +6,13 @@ const schoolState = {
             hol: 'Budapesti Corvinus Egyetem',
             mikor: '2018 - (2022)',
             mit: 'Gazdaságinformatika',
-            text: 'Sikeresen elvégeztem a 2. évemet, '
+            text: 'A 7 féléves képzés 4 félévének sikeres elvégzése során a hasznos informatika tudás megszerzése mellett volt alkalmam elsajátítani gazdasági ismereteket, illetve megismerkedni a projekt és csapatmunkák világával, valamint előadói és prezentációs gyakorlatot szerezni.'
         },
         {
             hol: 'Gárdonyi Géza Ciszterci Gimnázium',
             mikor: '2009 - 2018',
-            mit: 'Érettségi - Nyelvvizsga',
-            text: 'Emelt informatika érettségi - 92%, C1 felsőfokú angol nyelvvizsga'
+            mit: 'Érettségi',
+            text: 'Középiskolai tanulmányaim során a matematikát és informatikát emelt óraszámban, fakultációs keretek között tanultam, majd emelt érettségim is informatikából tettem.'
         }
     ]
 }
@@ -23,13 +23,13 @@ const workState = {
             hol: 'Jacsomedia Smart Web Applications',
             mikor: '2019 - ',
             mit: 'Content manager',
-            text: 'Októberben kezdtem munkálataim a Jacsomedia-nál, ahol megalapoztam mostani webfejlesztési tudásomat. '
+            text: 'Októberben kezdtem munkálataim a Jacsomedia-nál, ahol megalapoztam mostani webfejlesztési tudásomat. Megismerkedtem a cégen belüli feladatmegosztással, a kanban rendszerrel és egy komoly munkahely felelősségtudatával. Feladataim közé tartozott a webes kontentek módosítása, frissítése, készítése és felöltése Teamsite, Drupal vagy Wordpress használatával. Emellett kezeltem adatbázisokat és részt vettem fejlesztési/tesztelési folyamatokban amiknek köszönhetően megtanultam Git és SQL kódot írni. A HTML-CSS-JS triot szabadidőmben sajátítottam el, amit aktívan használtam is az elmúlt hónapokban különböző oldalak módosításában és HTML levelek készítésében pl.: Veeva approved email.'
         },
         {
-            hol: 'Tutoring: Programozás C#',
+            hol: 'Korrepetálás: Programozás C#',
             mikor: '2018 - 2019',
             mit: 'Emelt érettségi felkészítő',
-            text: 'Kiemelkedő emelt informatika érettségim által szerzett tapasztalataimat felhasználva személyes felkészítő órákat tartottam 2018 decembere és 2019 áprilisa között.'
+            text: 'Kiemelkedő emelt informatika érettségimre történő felkészülés során szerzett tapasztalataimat felhasználva személyes korrepetáló órákat tartottam 2018 decembere és 2019 áprilisa között.'
         }
     ]
 }
@@ -38,64 +38,64 @@ const projectState = {
     data: [
         {
             nev: 'myCV',
-            nyelv: 'Javascript',
-            text: 'Saját fejlesztésű számológép melyet android studioban írtam Kotlin nyelven.',
+            nyelv: 'Javascript: React-Redux',
+            text: 'Önéletrajzi weboldalam javascriptben írtam react és redux library-k segítségével.',
             link: 'https://github.com/AdamK18/myCV',
             isGutHub: true
         },
         {
             nev: 'LearnIT',
-            nyelv: 'C#',
-            text: 'Éles iskola project',
+            nyelv: 'C# - SQL - LINQ',
+            text: 'Szoftvertechnológia II. órámra beadandóként készítettem ezt az SQL adatbázis alapú C# alkalmazást. Az adatbázis megtervezése után részenként integráltam bele a funkciókat LINQ és C# nyelvek segítségével.',
             link: 'https://github.com/AdamK18/myCV',
             isGutHub: true
         },
         {
             nev: 'Calculator',
             nyelv: 'Kotlin',
-            text: 'Saját fejlesztésű számológép melyet android studioban írtam Kotlin nyelven.',
+            text: 'Ezt a számológépre hasonlító alkalmazást önálló fejlődés érdekében készítettem Android Studio-ban.',
             link: 'https://bitbucket.org/adamkloczl/calculator_android/src/master/',
             isGutHub: false
         },
         {
             nev: 'Color match',
             nyelv: 'Java',
-            text: 'Egy egyszerű telefonos játék melyben 4 különböző szín véletlen sorrendben villan fel, majd ezt a sorrendet kell a felhasználónak utánoznia. Java nyelven íródott Android studioban.',
+            text: 'Egy egyszerű telefonos játék melyben 4 különböző szín véletlen sorrendben villan fel, majd ezt a sorrendet kell a felhasználónak utánoznia. Android Studio-ban készült.',
             link: 'https://bitbucket.org/adamkloczl/colormatch_android/src/master/',
             isGutHub: false
         },
         {
             nev: 'myNotes',
             nyelv: 'Kotlin',
-            text: 'Az implementált SQLite adatbázis segítségével kis jegyzeteket tárolhat el a felhasználó. Kotlin nyelven íródott Android studioban.',
+            text: 'Az implementált SQLite adatbázis segítségével kis jegyzeteket tárolhat el a felhasználó. Android Studio-ban készült.',
             link: 'https://bitbucket.org/adamkloczl/mynotes_android/src/master/',
             isGutHub: false
         },
         {
             nev: 'MemoryGame',
             nyelv: 'Java',
-            text: 'Memóriajáték mely egy cég interjú feltétele volt. Emiatt a gra􀁃kai kellékeket ők biztosították. Javaban íródott android studioban.',
+            text: 'Memóriajáték mely céges interjú feladat volt. A grafikai kellékeket biztosították. Android Studio-ban készült.',
             link: 'https://bitbucket.org/adamkloczl/memorygame/src/master/',
             isGutHub: false
         },
         {
             nev: 'QueTalker-android',
             nyelv: 'Kotlin - Java',
-            text: 'Közös projekt Klöczl Andrással és Kiss Ágotával. Egy egyszerű (félkész) chat applikáció. Felhasználói kezelőfelület mellyel a regisztráció és belépés egyaránt lehetséges feltéve hogy az alábbi szerver fut. Kotlin és Java nyelven írodott Android studioban.',
+            text: 'Közös családi projekt. Egy egyszerű (félkész) chat applikáció. Felhasználói kezelőfelület mellyel a regisztráció és belépés egyaránt lehetséges feltéve hogy az alábbi szerver fut. Android Studio-ban készült.',
             link: 'https://bitbucket.org/andraskloczl/quetalker-android/src/develop/',
             isGutHub: false
         },
         {
             nev: 'QueTalker-backend',
             nyelv: 'Java',
-            text: 'Spring backend amely felelős a regisztrációs folyamatok elvégzéséért. A felhasználói adatokat tárolja és token rendszerrel léptet be. Intellij-ben íródott Java nyelven.',
+            text: 'Spring backend amely felelős a regisztrációs folyamatok elvégzéséért. A felhasználói adatokat tárolja és token rendszerrel léptet be. Intellij-ben készült',
             link: 'https://bitbucket.org/andraskloczl/quetalker-backend/src',
             isGutHub: false
         },
         {
             nev: 'Fluimucil game',
             nyelv: 'C#',
-            text: 'Telefonos játék melyet egyedül terveztem, írtam meg és tettem közzé Google Play-en. C# nyelven íródott Unity-ben.',
+            text: 'Ebben a játékban a Fluimucil "De miért?" Ábellel kell kikerülni a veszélyeket és minél tovább túlélni. Életem első projektje melyet közzé is tettem Google Play-en. Unity-ben készült.',
             link: 'https://bitbucket.org/adamkloczl/fluimucil/src/master/',
             isGutHub: false
         }

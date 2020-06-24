@@ -1,20 +1,32 @@
+.experience{
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  background-color: white;
+}
+
+.projects{
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
 .exp-h2 {
-  margin-top: 8vh;
-  font-size: 4vw;
+  font-size: 3vw;
+  margin: 0;
 }
 
 .sep-exp {
   width: 30vw;
-}
+  height: 0.2vh;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  background-color: #474744;
 
-.sep-project {
-  margin-bottom: 4vw;
 }
 
 .section {
   width: fit-content;
   margin: 3vw 10vw;
-  font-size: 3vw;
+  font-size: 2.2vw;
   color: #c1a57b;
 }
 
@@ -35,26 +47,26 @@
   display: inline-block;
   margin: 0;
   width: 30vw;
-  font-size: 2.2vw;
+  font-size: 1.8vw;
 }
 .mikor {
   margin: 0;
   width: 30vw;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   color: #474744;
 }
 .mit {
   margin: 0;
   width: 40vw;
-  font-size: 2.2vw;
+  font-size: 1.8vw;
 }
 .text {
   margin: 0;
   width: 40vw;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
-.social {
-  width: 2.5vw;
+.projectLink {
+  width: 2vw;
   padding: 0;
   padding-right: 1vw;
 }
@@ -69,17 +81,16 @@ a{
 
 @media screen and (max-width: 700px) {
   .exp-h2 {
-    margin-top: 8vh;
-    font-size: 10vw;
+    font-size: 8vw;
   }
-
   .sep-exp {
     width: 60vw;
+    height: 0.1vh;
   }
   .section {
     margin: 6vh auto;
-    font-size: 9vw;
-    margin-bottom: 3vh;
+    font-size: 7vw;
+    margin-bottom: 4vh;
   }
   .flex {
     flex-direction: column;
@@ -89,30 +100,31 @@ a{
     margin-top: 2vh;
   }
   .hol {
-    margin-top: 0vh;
+    margin-top: 2vh;
     margin-bottom: 3vh;
     width: 100%;
-    font-size: 7vw;
+    font-size: 6vw;
   }
   .mit {
     margin: 0;
     margin-bottom: 1vh;
     width: 100%;
-    font-size: 6vw;
+    font-size: 5vw;
   }
   .mikor {
     margin-bottom: 3vh;
     width: 100%;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .text {
     margin: 0;
     width: 100%;
-    font-size: 5vw;
+    font-size: 4vw;
     margin-bottom: 3vh;
   }
-  .social {
-    width: 8vw;
+  .projectLink{
+    margin-top: 2.3vh;
+    width: 6vw;
   }
   .projectContainer {
     display: flex;
